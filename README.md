@@ -29,12 +29,20 @@ Program for getting the word count from the contents of a file using command lin
 Developed By: anbuselvam
 refernce number: 22009081
 import sys
+
 d={}
+
 f=open(sys.argv[1],"r")
+
 for line in f:
+
     l=line.split(" ")
+    
     for word in l:
+    
+    
         if word not in d:
+        
             d[word]=1
         else:
             d[word]+=1
