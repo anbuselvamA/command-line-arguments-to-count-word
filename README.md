@@ -25,6 +25,7 @@ count the number of occurence of each word in the list
 Store the count of each word in dictionary
 
 ## PROGRAM:
+```
 Program for getting the word count from the contents of a file using command line arguments.
 Developed By: anbuselvam
 refernce number: 22009081
@@ -40,7 +41,7 @@ for line in f:
             d[word]+=1
             print(d)
             f.close()
-
+```
 
 
 ### OUTPUT:
